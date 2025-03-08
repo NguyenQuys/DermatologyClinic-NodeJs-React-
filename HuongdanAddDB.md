@@ -1,0 +1,1 @@
+Tải mongoDB Compasss -> Tạo DB có tên DermatologyClinic -> tạo các collection như users, carts... -> export file theo collection hợp lệ

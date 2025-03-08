@@ -1,0 +1,92 @@
+[{
+  "_id": {
+    "$oid": "67c48b03d6e253837087d113"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67c48b03d6e253837087d10e"
+  },
+  "amount": 910000,
+  "points_earned": 9100,
+  "points_used": 10000,
+  "payment_method": "cash",
+  "status": "refund_successfully",
+  "createdAt": {
+    "$date": "2025-03-04T16:44:51.395Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-03T16:12:41.396Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c48b1cd6e253837087d126"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67c48b1cd6e253837087d121"
+  },
+  "amount": 910000,
+  "points_earned": 9100,
+  "points_used": 10000,
+  "payment_method": "cash",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-04T16:45:16.052Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:45:16.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c48b39d8d4c1b403d11ec3"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67c48b39d8d4c1b403d11ebe"
+  },
+  "amount": 910000,
+  "points_earned": 9100,
+  "points_used": 10000,
+  "payment_method": "cash",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-03T16:45:45.523Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:45:45.523Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c48c8e52c0a6d1010a4713"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67c48c8e52c0a6d1010a470e"
+  },
+  "amount": 910000,
+  "points_earned": 9100,
+  "points_used": 10000,
+  "payment_method": "cash",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-05T16:51:26.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:51:26.503Z"
+  },
+  "__v": 0
+}]
