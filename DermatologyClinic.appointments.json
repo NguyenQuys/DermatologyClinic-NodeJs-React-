@@ -11,40 +11,43 @@
   "date": {
     "$date": "2024-09-08T11:40:00.000Z"
   },
-  "status": "confirmed",
+  "status": "canceled",
   "createdAt": {
     "$date": "2025-02-21T21:24:31.163Z"
   },
   "updatedAt": {
-    "$date": "2025-02-21T21:24:31.163Z"
+    "$date": "2025-03-24T17:02:48.275Z"
   },
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "67b952a53772b934f96a29d7"
+    "$oid": "67da82ff5043d7c502385501"
   },
   "customer_id": {
-    "$oid": "67b88e0210096a2f50cebf28"
+    "$oid": "67b887bcd674ff55b8b3f427"
   },
   "doctor_id": {
-    "$oid": "67b8a4d283cc931f01b460ed"
+    "$oid": "67cc164afb823cbea191bb01"
   },
   "date": {
-    "$date": "2024-09-08T11:40:00.000Z"
+    "$date": "2025-03-06T08:40:00.000Z"
   },
-  "status": "confirmed",
+  "status": "completed",
   "createdAt": {
-    "$date": "2025-02-22T04:29:25.887Z"
+    "$date": "2025-03-19T08:40:31.027Z"
   },
   "updatedAt": {
-    "$date": "2025-02-22T04:29:25.887Z"
+    "$date": "2025-03-30T15:58:39.307Z"
   },
-  "__v": 0
+  "__v": 0,
+  "medical_record_id": {
+    "$oid": "67e96a1c2c1c1eda25c5bc2a"
+  }
 },
 {
   "_id": {
-    "$oid": "67b955081809db5293a4c969"
+    "$oid": "67da830b5043d7c502385505"
   },
   "customer_id": {
     "$oid": "67b887bcd674ff55b8b3f427"
@@ -53,14 +56,40 @@
     "$oid": "67b8a4d283cc931f01b460ed"
   },
   "date": {
-    "$date": "2024-09-08T11:40:00.000Z"
+    "$date": "2025-03-06T08:40:00.000Z"
+  },
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-19T08:40:43.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T18:03:55.229Z"
+  },
+  "__v": 0,
+  "notes": "c",
+  "medical_record_id": {
+    "$oid": "67e43e234f083b1352d71f3a"
+  }
+},
+{
+  "_id": {
+    "$oid": "67da83785043d7c50238550b"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-03-08T08:42:00.000Z"
   },
   "status": "confirmed",
   "createdAt": {
-    "$date": "2025-02-22T04:39:36.514Z"
+    "$date": "2025-03-19T08:42:32.656Z"
   },
   "updatedAt": {
-    "$date": "2025-02-22T04:39:36.514Z"
+    "$date": "2025-03-19T08:42:32.656Z"
   },
   "__v": 0
 }]

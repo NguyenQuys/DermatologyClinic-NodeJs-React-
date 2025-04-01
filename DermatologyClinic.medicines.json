@@ -15,4 +15,13 @@
   "price": 600000,
   "quantity": 100,
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d453ba9b24c2da75a334c3"
+  },
+  "name": "medicine2",
+  "price": 123,
+  "quantity": 23,
+  "__v": 0
 }]

@@ -3,27 +3,26 @@
     "$oid": "67b887bcd674ff55b8b3f427"
   },
   "name": "customerName",
-  "email": "nam@gmail.com",
+  "email": "nguyenhuuquy110203@gmail.com",
   "password": "$2b$10$syrlD86P73czWdXFVLeukesSfPH.MOjdHHlzOoBT7ZVECLZum1OWe",
   "age": 15,
   "gender": "male",
   "role": "customer",
   "membership": {
     "level": "gold",
-    "points": 10900,
+    "points": 1000000000,
     "total_spent": 28720000,
     "last_transaction": {
-      "$date": "2025-03-02T16:51:30.094Z"
+      "$date": "2025-03-30T15:55:58.113Z"
     }
   },
   "status": "active",
   "failed_appointments": 0,
-  "medical_records": [],
   "createdAt": {
     "$date": "2025-02-21T14:03:43.951Z"
   },
   "updatedAt": {
-    "$date": "2025-03-03T16:12:41.395Z"
+    "$date": "2025-03-30T15:55:58.114Z"
   },
   "__v": 0
 },
@@ -45,7 +44,6 @@
   },
   "status": "active",
   "failed_appointments": 0,
-  "medical_records": [],
   "createdAt": {
     "$date": "2025-02-21T14:30:28.076Z"
   },
@@ -58,7 +56,7 @@
   "_id": {
     "$oid": "67b8a4d283cc931f01b460ed"
   },
-  "name": "doctor1Name",
+  "name": "aa",
   "email": "bacsi@gmail.com",
   "password": "$2b$10$U6kiGsWhGIgAwxZOhvmkjOYPKXlb.6.APUD9QhG7Wlen26PoOvwk.",
   "age": 15,
@@ -72,7 +70,6 @@
   },
   "status": "active",
   "failed_appointments": 0,
-  "medical_records": [],
   "createdAt": {
     "$date": "2025-02-21T16:07:46.195Z"
   },
@@ -99,7 +96,6 @@
   },
   "status": "active",
   "failed_appointments": 0,
-  "medical_records": [],
   "createdAt": {
     "$date": "2025-03-01T16:41:46.107Z"
   },
@@ -126,7 +122,6 @@
   },
   "status": "active",
   "failed_appointments": 0,
-  "medical_records": [],
   "createdAt": {
     "$date": "2025-03-08T10:04:58.018Z"
   },

@@ -22,22 +22,9 @@
     },
     {
       "customer_id": {
-        "$oid": "67b88e0210096a2f50cebf28"
-      },
-      "comment": "Sản phẩm tuyệt vời!",
-      "rating": 5,
-      "createdAt": {
-        "$date": "2025-02-24T15:43:09.418Z"
-      },
-      "_id": {
-        "$oid": "67bc938d7d0509a7c24d5809"
-      }
-    },
-    {
-      "customer_id": {
         "$oid": "67b887bcd674ff55b8b3f427"
       },
-      "comment": "Sản phẩm tuyệt vời!",
+      "comment": "Sản phẩm tuy!",
       "rating": 5,
       "createdAt": {
         "$date": "2025-02-28T08:30:19.237Z"
@@ -45,17 +32,83 @@
       "_id": {
         "$oid": "67c1741b90404f989756a057"
       }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "haah",
+      "rating": 3,
+      "createdAt": {
+        "$date": "2025-03-31T06:08:37.274Z"
+      },
+      "_id": {
+        "$oid": "67ea3165a453604a73f10139"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "di",
+      "rating": 1,
+      "createdAt": {
+        "$date": "2025-03-31T06:15:36.058Z"
+      },
+      "_id": {
+        "$oid": "67ea3308a453604a73f10159"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "afaf",
+      "rating": 1,
+      "createdAt": {
+        "$date": "2025-03-31T06:15:46.905Z"
+      },
+      "_id": {
+        "$oid": "67ea3312a453604a73f1016d"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "sdf",
+      "rating": 0,
+      "createdAt": {
+        "$date": "2025-03-31T06:15:52.040Z"
+      },
+      "_id": {
+        "$oid": "67ea3318a453604a73f10185"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "hi",
+      "rating": 2,
+      "createdAt": {
+        "$date": "2025-03-31T06:24:01.217Z"
+      },
+      "_id": {
+        "$oid": "67ea35011c40e55986d6202d"
+      }
     }
   ],
   "createdAt": {
     "$date": "2025-02-21T22:08:54.944Z"
   },
   "updatedAt": {
-    "$date": "2025-03-03T03:01:08.640Z"
+    "$date": "2025-03-31T06:24:01.219Z"
   },
   "__v": 6,
-  "averageRating": 4.6,
-  "quantity": 76
+  "averageRating": 2.2,
+  "quantity": 76,
+  "image": "/src/assets/general/pic1.jpg"
 },
 {
   "_id": {
@@ -74,5 +127,45 @@
   },
   "__v": 0,
   "averageRating": 0,
-  "quantity": 100
+  "quantity": 100,
+  "image": "/src/assets/general/pic2.jpg"
+},
+{
+  "_id": {
+    "$oid": "67d3ede7e84717bd9042314b"
+  },
+  "name": "cos3",
+  "category": "cleanser",
+  "price": 2123,
+  "quantity": 123,
+  "averageRating": 0,
+  "isHidden": false,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-03-14T08:50:47.819Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-14T08:50:47.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67df0368b4aae640596038a3"
+  },
+  "name": "Sua rua mat C",
+  "category": "cleanser",
+  "price": 600000,
+  "image": "/src/assets/general/pic1.jpg",
+  "quantity": 100,
+  "averageRating": 0,
+  "isHidden": false,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-03-22T18:37:28.514Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-22T18:37:28.514Z"
+  },
+  "__v": 0
 }]
