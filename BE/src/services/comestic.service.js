@@ -104,7 +104,7 @@ class ComesticService {
     }
 
     // Xử lý đường dẫn ảnh
-    entity.image = `/src/assets/general/${entity.image}`;
+    //entity.image = `/src/assets/general/${entity.image}`;
 
     // Thêm sản phẩm mới
     await _repository.comesticRepository.add(entity);
@@ -193,7 +193,7 @@ class ComesticService {
       }
 
       // Xử lý đường dẫn ảnh
-      entity.image = `/src/assets/general/${entity.image}`;
+      //entity.image = `/src/assets/general/${entity.image}`;
     }
 
     // Cập nhật sản phẩm

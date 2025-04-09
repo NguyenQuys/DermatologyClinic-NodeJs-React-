@@ -16,7 +16,7 @@ router.put(
   comesticController.updateComestic
 );
 router.delete(
-  "/delete",
+  "/delete/:id",
   authMiddleware.verifyRoles(userRole.ADMIN),
   comesticController.deleteComestic
 );
