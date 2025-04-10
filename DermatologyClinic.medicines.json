@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "67bddf745d911adfedac66e1"
+  },
+  "name": "Thuoc A",
+  "price": 500000,
+  "quantity": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bddf7a5d911adfedac66e3"
+  },
+  "name": "Thuoc B",
+  "price": 600000,
+  "quantity": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d453ba9b24c2da75a334c3"
+  },
+  "name": "medicine2",
+  "price": 123,
+  "quantity": 23,
+  "__v": 0
+}]
