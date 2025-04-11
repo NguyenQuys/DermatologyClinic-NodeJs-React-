@@ -31,9 +31,9 @@ exports.login = async (req, res) => {
   }
 };
 
-exports.logout = async (res) => {
+exports.logout = async (req, res) => {
   try {
-    res.clearCookie("token");
+    res.clearCookie("jwt_token");
     res.json({ message: "Đăng xuất thành công" });
   } catch (error) {
     res.status(500).json({ message: error.message });
