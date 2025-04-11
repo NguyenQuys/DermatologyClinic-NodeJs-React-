@@ -31,8 +31,8 @@ class OTPService {
     };
 
     // Gửi email
-    //return await transporter.sendMail(mailOptions);
-    return otp;
+    await transporter.sendMail(mailOptions);
+    return "Mã OTP đã được gửi qua Email của bạn. Vui lòng check Email để kiểm tra";
   }
 
   async verifyOTP(userInputOTP) {

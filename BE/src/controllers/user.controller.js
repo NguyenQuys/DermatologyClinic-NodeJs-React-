@@ -61,7 +61,7 @@ exports.update = async (req, res) => {
     const updatedUser = await _userService.update(req.params.id, req.body);
     if (!updatedUser)
       return res.status(404).json({ message: "Ko tìm thấy user" });
-    res.json(updatedUser);
+    res.status(200).json({ message: updatedUser });
   } catch (err) {
     res.status(400).json({ message: err.message });
   }
