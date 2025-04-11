@@ -11,8 +11,8 @@ exports.verifyOTP = async (req, res) => {
     const { otp } = req.body;
     const token = await _otpService.verifyOTP(otp);
 
-    res.cookie("token", token, {
-      httpOnly: true, // Bảo mật, không thể truy cập từ frontend JavaScript
+    res.cookie("jwt_token", token, {
+      httpOnly: false, // Bảo mật, không thể truy cập từ frontend JavaScript
       secure: false,
       sameSite: "strict",
     });
