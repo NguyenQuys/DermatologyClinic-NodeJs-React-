@@ -1,9 +1,15 @@
 const { request } = require("express");
 const mongoose = require("mongoose");
+const slugify = require("slugify");
 
 const comesticSchema = new mongoose.Schema(
   {
     name: { type: String, required: true, unique: true },
+    slug: {
+      type: String,
+      unique: true,
+      errorMessage: "Slug đã tồn tại",
+    },
     category: { type: String, required: true },
     price: { type: Number, required: true },
     image: { type: String, request: true },
@@ -26,5 +32,28 @@ const comesticSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const Cosmetic = mongoose.model("Comestic", comesticSchema);
-module.exports = Cosmetic;
+comesticSchema.pre("save", function (next) {
+  if (this.isModified("name")) {
+    this.slug = slugify(this.name, {
+      lower: true,
+      strict: true,
+      locale: "vi",
+    });
+  }
+  next();
+});
+
+comesticSchema.pre("findOneAndUpdate", function (next) {
+  const update = this.getUpdate();
+  if (update.name) {
+    update.slug = slugify(update.name, {
+      lower: true,
+      strict: true,
+      locale: "vi",
+    });
+  }
+  next();
+});
+
+const Comestic = mongoose.model("Comestic", comesticSchema);
+module.exports = Comestic;

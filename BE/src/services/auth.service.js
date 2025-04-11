@@ -130,7 +130,7 @@ exports.login = async (name, password) => {
 
   // Tạo và gửi OTP
   const otp = await _otpService.generateOTP();
-  return "Đã gửi mãi OTP đến email của bạn. Vui lòng check email để xác thực";
+  //return "Đã gửi mãi OTP đến email của bạn. Vui lòng check email để xác thực";
 
-  //return otp;
+  return otp;
 };

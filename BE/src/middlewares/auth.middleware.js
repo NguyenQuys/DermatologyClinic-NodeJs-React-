@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 const UserRole = require("../enums/userRole.enum");
 
 exports.currentUser = (req, res, next) => {
-  const token = req.cookies.token;
+  const token = req.cookies.jwt_token;
 
   if (!token) return res.status(401).json({ message: "Chưa đăng nhập" });
 
@@ -17,7 +17,7 @@ exports.currentUser = (req, res, next) => {
 
 exports.verifyRoles = (roles) => (req, res, next) => {
   try {
-    const token = req.cookies.jwt_token;
+    const token = req.cookies.token;
     //      const token = req.cookies.jwt_token;
 
     if (!token) {

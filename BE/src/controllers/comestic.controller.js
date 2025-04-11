@@ -1,5 +1,6 @@
 const _comesticService = require("../services/comestic.service");
 const _reviewService = require("../services/review.service");
+const slugify = require("slugify");
 
 // Products
 exports.getAll = async (req, res) => {
@@ -16,6 +17,16 @@ exports.getById = async (req, res) => {
     const { id } = req.params;
     if (!id) return res.status(400).json({ message: "Thiếu ID mỹ phẩm" });
     const comestic = await _comesticService.getById(id);
+    res.json(comestic);
+  } catch (error) {
+    res.status(500).json({ message: "Lỗi server: ", error });
+  }
+};
+
+exports.getBySlug = async (req, res) => {
+  try {
+    const { slug } = req.params;
+    const comestic = await _comesticService.getBySlug(slug);
     res.json(comestic);
   } catch (error) {
     res.status(500).json({ message: "Lỗi server: ", error });

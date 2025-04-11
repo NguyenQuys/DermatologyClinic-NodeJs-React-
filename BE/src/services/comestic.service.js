@@ -19,6 +19,20 @@ class ComesticService {
     return comesticToGet;
   }
 
+  async getBySlug(slug) {
+    const comesticToGet = await _repository.comesticRepository.getBySlug(slug);
+    if (!comesticToGet)
+      throw Object.assign(new Error("Sản phẩm không tồn tại"), { status: 404 });
+
+    if (comesticToGet.reviews && Array.isArray(comesticToGet.reviews)) {
+      comesticToGet.reviews.sort(
+        (a, b) => new Date(b.createdAt) - new Date(a.createdAt) // explain in doc file
+      );
+    }
+
+    return comesticToGet;
+  }
+
   async searchByName(comesticName) {
     const cosmestic = await _repository.comesticRepository.searchByName(
       comesticName

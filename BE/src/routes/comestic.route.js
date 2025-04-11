@@ -7,6 +7,7 @@ const userRole = require("../enums/userRole.enum");
 // Products
 router.get("/getAll", comesticController.getAll);
 router.get("/getById/:id", comesticController.getById);
+router.get("/getBySlug/:slug", comesticController.getBySlug);
 router.post("/add", comesticController.addComestic);
 router.post("/searchByName", comesticController.searchByName);
 router.post("/sort", comesticController.sortByPrice);

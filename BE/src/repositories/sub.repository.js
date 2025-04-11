@@ -82,6 +82,10 @@ class ComesticRepository extends BaseRepository {
       { new: true }
     );
   }
+
+  async getBySlug(slug) {
+    return await this.model.findOne({ slug });
+  }
 }
 
 class MedicineRepository extends BaseRepository {

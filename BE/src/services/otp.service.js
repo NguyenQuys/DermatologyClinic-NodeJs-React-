@@ -31,7 +31,7 @@ class OTPService {
     };
 
     // Gửi email
-    return await transporter.sendMail(mailOptions);
+    //return await transporter.sendMail(mailOptions);
     return otp;
   }
 
