@@ -1,0 +1,155 @@
+[{
+  "_id": {
+    "$oid": "67b8f97685e357fa15dc0bfa"
+  },
+  "name": "Sua rua mat A",
+  "category": "cleanser",
+  "price": 200000,
+  "isHidden": false,
+  "reviews": [
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "hi",
+      "rating": 2,
+      "createdAt": {
+        "$date": "2025-03-31T06:24:01.217Z"
+      },
+      "_id": {
+        "$oid": "67ea35011c40e55986d6202d"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "sdf",
+      "rating": 0,
+      "createdAt": {
+        "$date": "2025-03-31T06:15:52.040Z"
+      },
+      "_id": {
+        "$oid": "67ea3318a453604a73f10185"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "afaf",
+      "rating": 1,
+      "createdAt": {
+        "$date": "2025-03-31T06:15:46.905Z"
+      },
+      "_id": {
+        "$oid": "67ea3312a453604a73f1016d"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "di",
+      "rating": 1,
+      "createdAt": {
+        "$date": "2025-03-31T06:15:36.058Z"
+      },
+      "_id": {
+        "$oid": "67ea3308a453604a73f10159"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "haah",
+      "rating": 3,
+      "createdAt": {
+        "$date": "2025-03-31T06:08:37.274Z"
+      },
+      "_id": {
+        "$oid": "67ea3165a453604a73f10139"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b887bcd674ff55b8b3f427"
+      },
+      "comment": "Sản phẩm tuy!",
+      "rating": 5,
+      "createdAt": {
+        "$date": "2025-02-28T08:30:19.237Z"
+      },
+      "_id": {
+        "$oid": "67c1741b90404f989756a057"
+      }
+    },
+    {
+      "customer_id": {
+        "$oid": "67b88e0210096a2f50cebf28"
+      },
+      "comment": "Sản phẩm tuyệt vời!",
+      "rating": 4,
+      "createdAt": {
+        "$date": "2025-02-24T15:09:05.425Z"
+      },
+      "_id": {
+        "$oid": "67bc8b9189f7f92f0d3941e4"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-21T22:08:54.944Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T06:08:37.358Z"
+  },
+  "__v": 6,
+  "averageRating": 2,
+  "quantity": 76,
+  "image": "pic2.png",
+  "slug": "sua-rua-mat-a"
+},
+{
+  "_id": {
+    "$oid": "67bc07dfb56f938a03af6b1a"
+  },
+  "name": "Sua rua mat B",
+  "category": "cleanser",
+  "price": 600000,
+  "isHidden": false,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-02-24T05:47:11.650Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-24T05:47:11.650Z"
+  },
+  "__v": 0,
+  "averageRating": 0,
+  "quantity": 100,
+  "image": "pic1.png",
+  "slug": "sua-rua-mat-b"
+},
+{
+  "_id": {
+    "$oid": "67df0368b4aae640596038a3"
+  },
+  "name": "Sua rua mat C",
+  "category": "cleanser",
+  "price": 600000,
+  "image": "pic3.png",
+  "quantity": 100,
+  "averageRating": 0,
+  "isHidden": false,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-03-22T18:37:28.514Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-22T18:37:28.514Z"
+  },
+  "__v": 0,
+  "slug": "sua-rua-mat-c"
+}]

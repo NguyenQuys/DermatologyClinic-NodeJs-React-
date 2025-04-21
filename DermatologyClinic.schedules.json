@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "67cc1310ff09d8952022e30b"
+  },
+  "doctor": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "schedules": [
+    {
+      "schedule_date": {
+        "$date": "2025-04-14T00:00:00.000Z"
+      },
+      "status": "available",
+      "_id": {
+        "$oid": "67cc1310ff09d8952022e30c"
+      }
+    },
+    {
+      "schedule_date": {
+        "$date": "2025-04-05T00:00:00.000Z"
+      },
+      "status": "available",
+      "_id": {
+        "$oid": "67cc1310ff09d8952022e30d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-03-08T09:51:12.464Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T10:00:30.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cc1687fb823cbea191bb04"
+  },
+  "doctor": {
+    "$oid": "67ed77b8cbac5838aea1ce71"
+  },
+  "schedules": [
+    {
+      "schedule_date": {
+        "$date": "2025-04-03T00:00:00.000Z"
+      },
+      "status": "available",
+      "_id": {
+        "$oid": "67cc1687fb823cbea191bb05"
+      }
+    },
+    {
+      "schedule_date": {
+        "$date": "2025-04-03T00:00:00.000Z"
+      },
+      "status": "available",
+      "_id": {
+        "$oid": "67cc1687fb823cbea191bb06"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-03-08T10:05:59.386Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T10:05:59.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f9ca48cf71d60fddf3ee21"
+  },
+  "doctor": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "schedules": [
+    {
+      "schedule_date": {
+        "$date": "2025-04-16T00:00:00.000Z"
+      },
+      "status": "available",
+      "_id": {
+        "$oid": "67f9ca48cf71d60fddf3ee22"
+      }
+    },
+    {
+      "schedule_date": {
+        "$date": "2025-04-17T00:00:00.000Z"
+      },
+      "status": "available",
+      "_id": {
+        "$oid": "67f9ca48cf71d60fddf3ee23"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-04-12T02:04:56.610Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-12T02:04:56.610Z"
+  },
+  "__v": 0
+}]

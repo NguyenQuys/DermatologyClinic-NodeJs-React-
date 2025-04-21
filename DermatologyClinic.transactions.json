@@ -1,0 +1,322 @@
+[{
+  "_id": {
+    "$oid": "67c48b03d6e253837087d113"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67c48b03d6e253837087d10e"
+  },
+  "amount": 910000,
+  "points_earned": 9100,
+  "points_used": 10000,
+  "payment_method": "at_store",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-04-03T16:44:51.395Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-03T16:12:41.396Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c48b1cd6e253837087d126"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67c48b1cd6e253837087d121"
+  },
+  "amount": 910000,
+  "points_earned": 9100,
+  "points_used": 10000,
+  "payment_method": "at_store",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-04T16:45:16.052Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:45:16.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c48b39d8d4c1b403d11ec3"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67c48b39d8d4c1b403d11ebe"
+  },
+  "amount": 910000,
+  "points_earned": 9100,
+  "points_used": 10000,
+  "payment_method": "at_store",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-03T16:45:45.523Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:45:45.523Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c48c8e52c0a6d1010a4713"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67c48c8e52c0a6d1010a470e"
+  },
+  "amount": 910000,
+  "points_earned": 9100,
+  "points_used": 10000,
+  "payment_method": "at_store",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-05T16:51:26.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:51:26.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e77413e7d6592c7565814f"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67e77413e7d6592c75658146"
+  },
+  "amount": 3715000,
+  "points_earned": 37150,
+  "points_used": 2000,
+  "payment_method": "delivery",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-29T04:16:19.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T04:16:19.192Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e7748eb87670b9b63e9afc"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67e7748eb87670b9b63e9af3"
+  },
+  "amount": 3715000,
+  "points_earned": 37150,
+  "points_used": 2000,
+  "payment_method": "delivery",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-29T04:18:22.453Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T04:18:22.453Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e774bdb87670b9b63e9b0a"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67e774bdb87670b9b63e9b01"
+  },
+  "amount": 3688000,
+  "points_earned": 36880,
+  "points_used": 2000,
+  "payment_method": "at_store",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-29T04:19:09.476Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T04:19:09.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e77596b87670b9b63e9b1a"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67e7758db87670b9b63e9b11"
+  },
+  "amount": 3717000,
+  "points_earned": 37170,
+  "points_used": 0,
+  "payment_method": "delivery",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-29T04:22:46.355Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T04:22:46.355Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e775abb87670b9b63e9b28"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67e7759bb87670b9b63e9b1f"
+  },
+  "amount": 3690000,
+  "points_earned": 36900,
+  "points_used": 0,
+  "payment_method": "at_store",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-29T04:23:07.039Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T04:23:07.039Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e9698e2c1c1eda25c5bbe2"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67e9698e2c1c1eda25c5bbd9"
+  },
+  "amount": 3697000,
+  "points_earned": 36970,
+  "points_used": 20000,
+  "payment_method": "delivery",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-30T15:55:58.099Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T15:55:58.099Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eff7dc5cf269d5b839e19b"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67eff7dc5cf269d5b839e192"
+  },
+  "amount": 3420000,
+  "points_earned": 34200,
+  "points_used": 0,
+  "payment_method": "at_store",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-04-04T15:16:44.165Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-04T15:16:44.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f94c625ea6fe3b63c06347"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67f94c625ea6fe3b63c0633e"
+  },
+  "amount": 3420000,
+  "points_earned": 34200,
+  "points_used": 0,
+  "payment_method": "at_store",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-04-11T17:07:46.614Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T17:07:46.614Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f94feb789dad57e4fa8de2"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67f94feb789dad57e4fa8ddd"
+  },
+  "amount": 360000,
+  "points_earned": 3600,
+  "points_used": 0,
+  "payment_method": "at_store",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-04-11T17:22:51.815Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T17:22:51.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f9c88dcf71d60fddf3edfc"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "order_id": {
+    "$oid": "67f9c88dcf71d60fddf3edf3"
+  },
+  "amount": 3446000,
+  "points_earned": 34460,
+  "points_used": 1000,
+  "payment_method": "delivery",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-04-12T01:57:33.542Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-12T01:57:33.542Z"
+  },
+  "__v": 0
+}]

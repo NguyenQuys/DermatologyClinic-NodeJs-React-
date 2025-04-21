@@ -1,0 +1,370 @@
+[{
+  "_id": {
+    "$oid": "67be9110288174f723bb4534"
+  },
+  "customer_id": {
+    "$oid": "67b88e0210096a2f50cebf28"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "Mun trung ca",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67b8f97685e357fa15dc0bfa"
+      },
+      "type": "comestic",
+      "dosage": "10 mg",
+      "frequency": "2lan/nagy",
+      "duration": "5 ngay",
+      "_id": {
+        "$oid": "67be9110288174f723bb4535"
+      }
+    },
+    {
+      "item_id": "67d00ead4bc6367e2f866f9d",
+      "type": "treatment",
+      "dosage": "khong",
+      "frequency": "khong2",
+      "duration": "khong 3",
+      "_id": "67be9110288174f723bb4535"
+    }
+  ],
+  "notes": "notrrrrr",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-02-26T03:57:04.725Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T03:57:04.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e2584d7437c28cf3384807"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "as",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67d453ba9b24c2da75a334c3"
+      },
+      "type": "medicine",
+      "dosage": "as",
+      "frequency": "as",
+      "duration": "as",
+      "_id": {
+        "$oid": "67e2584d7437c28cf3384808"
+      }
+    }
+  ],
+  "notes": "asd",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-03-25T07:16:29.732Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T07:16:29.732Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e4109ee55c9aba15244b88"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "xxx",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67d453ba9b24c2da75a334c3"
+      },
+      "type": "medicine",
+      "dosage": "a",
+      "frequency": "s",
+      "duration": "s",
+      "_id": {
+        "$oid": "67e4109ee55c9aba15244b89"
+      }
+    }
+  ],
+  "notes": "ds",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-03-26T14:35:10.390Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T14:35:10.390Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e41e7d0654ae5e96e05023"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "z",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67d453ba9b24c2da75a334c3"
+      },
+      "type": "medicine",
+      "dosage": "z",
+      "frequency": "z",
+      "duration": "z",
+      "_id": {
+        "$oid": "67e41e7d0654ae5e96e05024"
+      }
+    }
+  ],
+  "notes": "z",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-03-26T15:34:21.224Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T15:34:21.224Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e43a838a1d90a192853caa"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "c",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67d453ba9b24c2da75a334c3"
+      },
+      "type": "medicine",
+      "dosage": "c",
+      "frequency": "c",
+      "duration": "c",
+      "_id": {
+        "$oid": "67e43a838a1d90a192853cab"
+      }
+    }
+  ],
+  "notes": "c",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-03-26T17:33:55.892Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T17:33:55.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e43d5c0d1404c1aa89b385"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "v",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67d453ba9b24c2da75a334c3"
+      },
+      "type": "medicine",
+      "dosage": "v",
+      "frequency": "v",
+      "duration": "v",
+      "_id": {
+        "$oid": "67e43d5c0d1404c1aa89b386"
+      }
+    }
+  ],
+  "notes": "v",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-03-26T17:46:04.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T17:46:04.800Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e43ddb0d1404c1aa89b394"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "b",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67d453ba9b24c2da75a334c3"
+      },
+      "type": "medicine",
+      "dosage": "b",
+      "frequency": "b",
+      "duration": "b",
+      "_id": {
+        "$oid": "67e43ddb0d1404c1aa89b395"
+      }
+    }
+  ],
+  "notes": "b",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-03-26T17:48:11.902Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T17:48:11.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e43e234f083b1352d71f3a"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "b",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67d453ba9b24c2da75a334c3"
+      },
+      "type": "medicine",
+      "dosage": "b",
+      "frequency": "b",
+      "duration": "b",
+      "_id": {
+        "$oid": "67e43e234f083b1352d71f3b"
+      }
+    }
+  ],
+  "notes": "b",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-03-26T17:49:23.191Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T17:49:23.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e96a1c2c1c1eda25c5bc2a"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "Oko honw roi ",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67bc07dfb56f938a03af6b1a"
+      },
+      "type": "comestic",
+      "dosage": "1",
+      "frequency": "1",
+      "duration": "1",
+      "_id": {
+        "$oid": "67e96a1c2c1c1eda25c5bc2b"
+      }
+    },
+    {
+      "item_id": {
+        "$oid": "67d453ba9b24c2da75a334c3"
+      },
+      "type": "medicine",
+      "dosage": "3",
+      "frequency": "3",
+      "duration": "3",
+      "_id": {
+        "$oid": "67e96a1c2c1c1eda25c5bc2c"
+      }
+    }
+  ],
+  "notes": "llll",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-03-30T15:58:20.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T15:58:20.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f9c582cf71d60fddf3edb4"
+  },
+  "customer_id": {
+    "$oid": "67b88e0210096a2f50cebf28"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "diagnosis": "qqq",
+  "prescription": [
+    {
+      "item_id": {
+        "$oid": "67b8f97685e357fa15dc0bfa"
+      },
+      "type": "comestic",
+      "dosage": "1",
+      "frequency": "1",
+      "duration": "1",
+      "_id": {
+        "$oid": "67f9c582cf71d60fddf3edb5"
+      }
+    }
+  ],
+  "notes": "aa",
+  "isHidden": false,
+  "createdAt": {
+    "$date": "2025-04-12T01:44:34.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-12T01:44:34.753Z"
+  },
+  "__v": 0
+}]

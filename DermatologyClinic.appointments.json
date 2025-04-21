@@ -1,0 +1,274 @@
+[{
+  "_id": {
+    "$oid": "67b8ef0f08cb6079a3d383ea"
+  },
+  "customer_id": {
+    "$oid": "67b88e0210096a2f50cebf28"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2024-09-08T11:40:00.000Z"
+  },
+  "status": "examined",
+  "createdAt": {
+    "$date": "2025-02-21T21:24:31.163Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-12T01:44:34.778Z"
+  },
+  "__v": 0,
+  "medical_record_id": {
+    "$oid": "67f9c582cf71d60fddf3edb4"
+  }
+},
+{
+  "_id": {
+    "$oid": "67da82ff5043d7c502385501"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67cc164afb823cbea191bb01"
+  },
+  "date": {
+    "$date": "2025-03-06T08:40:00.000Z"
+  },
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-19T08:40:31.027Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T15:58:39.307Z"
+  },
+  "__v": 0,
+  "medical_record_id": {
+    "$oid": "67e96a1c2c1c1eda25c5bc2a"
+  }
+},
+{
+  "_id": {
+    "$oid": "67da830b5043d7c502385505"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-03-06T08:40:00.000Z"
+  },
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-19T08:40:43.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T18:03:55.229Z"
+  },
+  "__v": 0,
+  "notes": "c",
+  "medical_record_id": {
+    "$oid": "67e43e234f083b1352d71f3a"
+  }
+},
+{
+  "_id": {
+    "$oid": "67da83785043d7c50238550b"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-03-08T08:42:00.000Z"
+  },
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-03-19T08:42:32.656Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-19T08:42:32.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ede80a2c3e348a19dc9f2d"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-04-16T02:41:00.000Z"
+  },
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-04-03T01:44:42.488Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-03T01:44:42.488Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67edfaa599eb9f131c002882"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-04-15T03:03:00.000Z"
+  },
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-04-03T03:04:05.898Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-03T03:04:05.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67edfaeb99eb9f131c002895"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-04-17T03:05:00.000Z"
+  },
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-04-03T03:05:15.308Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-03T03:05:15.308Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eed15a8405fce9f24e6379"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-04-04T18:20:00.000Z"
+  },
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-04-03T18:20:10.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-03T18:20:10.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f23ca036a2c3addcbebaed"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-04-07T00:00:00.000Z"
+  },
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-04-06T08:34:40.199Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-06T08:34:40.199Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f243e7c6c5d034f5a89145"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-04-07T00:00:00.000Z"
+  },
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-04-06T09:05:43.047Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-06T09:05:43.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f3975800e2086f8bcd799c"
+  },
+  "customer_id": {
+    "$oid": "67f396254ac3f551eb5d5b6f"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-04-08T09:10:00.000Z"
+  },
+  "status": "cancelled",
+  "createdAt": {
+    "$date": "2025-04-07T09:14:00.128Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-07T09:22:44.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f9c8a5cf71d60fddf3ee08"
+  },
+  "customer_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "doctor_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "date": {
+    "$date": "2025-04-14T00:00:00.000Z"
+  },
+  "status": "move_to_queue",
+  "createdAt": {
+    "$date": "2025-04-12T01:57:57.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-12T02:00:51.972Z"
+  },
+  "__v": 0
+}]

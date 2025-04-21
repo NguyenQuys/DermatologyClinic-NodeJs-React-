@@ -1,0 +1,132 @@
+[{
+  "_id": {
+    "$oid": "67b887bcd674ff55b8b3f427"
+  },
+  "name": "customerName",
+  "email": "nguyenhuuquy110203@gmail.com",
+  "password": "$2b$10$syrlD86P73czWdXFVLeukesSfPH.MOjdHHlzOoBT7ZVECLZum1OWe",
+  "age": 15,
+  "gender": "male",
+  "role": "customer",
+  "membership": {
+    "level": "gold",
+    "points": 10900,
+    "total_spent": 28720000,
+    "last_transaction": {
+      "$date": "2025-04-12T01:57:33.547Z"
+    }
+  },
+  "status": "active",
+  "failed_appointments": 0,
+  "createdAt": {
+    "$date": "2025-02-21T14:03:43.951Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-12T01:57:33.547Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b88e0210096a2f50cebf28"
+  },
+  "name": "adminName",
+  "email": "nguyenhuuqusy6@gmail.com",
+  "password": "$2b$10$AeCd2GWJB55EFqmNXP1EeectpyShw.bqulqdND0/4nxU/2y3osRnq",
+  "age": 15,
+  "gender": "male",
+  "role": "admin",
+  "membership": {
+    "level": "member",
+    "points": 0,
+    "total_spent": 0,
+    "last_transaction": null
+  },
+  "status": "active",
+  "failed_appointments": 0,
+  "createdAt": {
+    "$date": "2025-02-21T14:30:28.076Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T14:30:28.076Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b8a4d283cc931f01b460ed"
+  },
+  "name": "doctorName",
+  "email": "nguyenhuuquy6@gmail.com",
+  "password": "$2b$10$U6kiGsWhGIgAwxZOhvmkjOYPKXlb.6.APUD9QhG7Wlen26PoOvwk.",
+  "age": 15,
+  "gender": "male",
+  "role": "doctor",
+  "membership": {
+    "level": "member",
+    "points": 0,
+    "total_spent": 0,
+    "last_transaction": null
+  },
+  "status": "active",
+  "failed_appointments": 0,
+  "createdAt": {
+    "$date": "2025-02-21T16:07:46.195Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T03:21:35.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c338ca35c6e9a333edc438"
+  },
+  "name": "pharmacistName",
+  "email": "nguyenhuuquy11002@gmail.com",
+  "password": "$2b$10$ZkUiVskvg1zCTz/P1oOrUOdCly.y0H4rhtDBLyMXybz30JOlJX8gS",
+  "age": 15,
+  "gender": "male",
+  "role": "pharmacist",
+  "membership": {
+    "level": "member",
+    "points": 0,
+    "total_spent": 0,
+    "last_transaction": null
+  },
+  "status": "active",
+  "failed_appointments": 0,
+  "createdAt": {
+    "$date": "2025-03-01T16:41:46.107Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T03:22:12.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cc164afb823cbea191bb01"
+  },
+  "name": "doctor2Name",
+  "email": "doctor2@gmail.com",
+  "password": "$2b$10$IIFnS9qr6IUeYC1LZbLeoe.wZIFQe0b6k/6ZA/9VHIDkCm77LBhsq",
+  "age": 15,
+  "gender": "male",
+  "role": "doctor",
+  "membership": {
+    "level": "member",
+    "points": 0,
+    "total_spent": 0,
+    "last_transaction": null
+  },
+  "status": "active",
+  "failed_appointments": 0,
+  "createdAt": {
+    "$date": "2025-03-08T10:04:58.018Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T10:04:58.018Z"
+  },
+  "__v": 0
+}]
